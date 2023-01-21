@@ -6,10 +6,10 @@
 }
 .footerLink {
   text-decoration: underline;
-  color: #eb8439;
+  color: #ecb80d;
   font-size: 15px;
 }
 .footerLink:hover {
-  color: #eb8439;
+  color: #ecb80d;
   cursor: pointer;
 }
