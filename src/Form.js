@@ -45,11 +45,11 @@ export default function Form(props) {
 
   useEffect(() => {
     const fetchInitialData = async () => {
-      let url = `https://api.shecodes.io/weather/v1/current?query=Kyiv&key=aed6a8e29c1edbe73t3fba79abf409do&units=metric`;
+      let url = `https://api.shecodes.io/weather/v1/current?query=Lviv&key=aed6a8e29c1edbe73t3fba79abf409do&units=metric`;
       const weatherResponse = await axios.get(url);
       setWeather(weatherResponse.data);
 
-      let apiForecastUrl = `https://api.shecodes.io/weather/v1/forecast?query=Kyiv&key=aed6a8e29c1edbe73t3fba79abf409do&units=metric`;
+      let apiForecastUrl = `https://api.shecodes.io/weather/v1/forecast?query=Lviv&key=aed6a8e29c1edbe73t3fba79abf409do&units=metric`;
       const forecastResponse = await axios.get(apiForecastUrl);
       const formatedArray = forecastResponse.data.daily.slice(1, 6);
       setForecast(formatedArray);
