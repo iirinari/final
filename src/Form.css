@@ -2,6 +2,7 @@
   margin: 40px 0;
   display: flex;
   justify-content: stretch;
+  text-align: center;
 }
 
 #current-button {
@@ -9,14 +10,14 @@
   border: none;
   border-radius: 5px;
   font-size: 16px;
-  color: #f5e832;
+  color: #ecb80d;
   background-color: #fff;
   cursor: pointer;
   transition: 150ms ease-in-out;
 }
 #current-button:hover {
   color: #fff;
-  background-color: #f5e832;
+  background-color: #ecb80d;
   cursor: pointer;
   transition: 150ms ease-in-out;
 }
@@ -35,12 +36,12 @@
 }
 
 .button-search {
-  background-color: #f5e832;
+  background-color: #ecb80d;
   color: #fff;
   border-radius: 0 5px 5px 0;
 }
 .button-search:hover {
   background-color: #fff;
-  color: #f5e832;
+  color: #ecb80d;
   transition: 200ms ease-in-out;
 }
